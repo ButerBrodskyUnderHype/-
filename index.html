@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкант - БутерБродский</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            background: #1f1f1f;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #FF6666;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffffff;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #1f1f1f;
+            border-radius: 8px;
+        }
+        h2 {
+            border-bottom: 2px solid #FF6666;
+            padding-bottom: 10px;
+        }
+        .discography {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .album {
+            background: #333;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1 1 calc(30% - 20px);
+            min-width: 200px;
+            transition: transform 0.3s;
+        }
+        .album:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #1f1f1f;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>
+        <img src="https://i.imgur.com/wF6F9ey.jpeg" alt="Аватарка музыканта" style="width:50px; border-radius: 50%; vertical-align: middle; margin-right: 10px;"><i class="fas fa-user-music"></i> БутерБродский
+    </h1>
+    <nav>
+        <a href="#about"><i class="fas fa-user"></i> О музыканте</a>
+        <a href="#discography"><i class="fas fa-music"></i> Релизы</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Контакты</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2><i class="fas fa-info-circle"></i> О музыканте</h2>
+    <p>Я бутерброд, Ы.</p>
+</section>
+
+<section id="discography">
+    <h2><i class="fas fa-disc"></i> Релизы</h2>
+    <div class="discography">
+        <div class="album">
+            <h3>UnderHype</h3>
+            <p>Это рофлс.</p>
+        </div>
+        <div class="album">
+            <h3>Альбом</h3>
+            <p>Скоро...</p>
+        </div>
+        <div class="album">
+            <img src="https://i.imgur.com/skPvBXu.png" alt="Аватарка Сингла 1" style="width: 50px; border-radius: 25%; vertical-align: middle; margin-left: 0px;"> </h3>  Контр Страйк </h3>
+                     <p>БутерБродский (ft. ВМегаМозг).</p>
+            </div>
+        </div>
+</section>
+
+<section id="contact">
+    <h2><i class="fas fa-phone"></i> Контакты</h2>
+    <p>Электронная почта: buterbrodsky6@gmail.com</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 UnderHype</p>
+</footer>
+</body>
+</html>
